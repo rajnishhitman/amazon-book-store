@@ -32,7 +32,6 @@
     "shortid": "^2.2.16",
     "npm-watch": "^0.10.0"
   },
-  "proxy": "http://localhost:8080",
   "scripts": {
     "start": "node server.js",
     "build": "react-scripts build",
