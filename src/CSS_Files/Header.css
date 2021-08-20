@@ -1,0 +1,171 @@
+/* .header-logo {
+  width: 150px;
+}
+
+.navbar-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header-option-1 {
+  font-size: 10px;
+}
+
+
+.header-option-2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+.header-search {
+  display: flex;
+  align-items: center;
+}
+
+.header-search-select {
+  height: 32px;
+  width: 80px;
+  border: none;
+  background-color: rgb(224, 224, 224);
+}
+
+.header-search-input {
+  height: 32px;
+  border: none;
+}
+
+.header-search-icon {
+  padding: 5px;
+  margin-left: 4px;
+  height: 22px;
+  background-color: rgb(221, 146, 8);
+  transform: scale(1.35);
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  
+}
+
+.header-option-cart {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header-cart-count {
+  margin-left: 5px;
+  margin-right: 10px;
+} */
+
+
+
+
+
+.header {
+    /* display: flex;
+    align-items: center; */
+    background-color: rgb(43, 43, 40);
+    /* position: sticky; */
+  }
+  
+  .header-logo {
+    width: 150px;
+  }
+  
+  
+  .header-search {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header-search-select {
+    height: 32px;
+    width: 80px;
+    border: none;
+    background-color: rgb(224, 224, 224);
+  }
+  
+  .header-search-input {
+    height: 32px;
+    border: none;
+    width: 100%;
+  }
+  
+  
+  .header-search-icon {
+    padding: 5px;
+    margin-left: 4px;
+    height: 22px;
+    /* background-color: rgb(221, 146, 8); */
+    transform: scale(1.35);
+  }
+
+  .header-search-btn {
+    background-color: rgb(221, 146, 8);
+  }
+  
+  
+  /* .header-nav {
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  
+  .header-option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .header-option-1 {
+    font-size: 12px;
+  }
+  
+  
+  .header-option-2 {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .header-link {
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  .dropdown-toggle::after {
+    content: none;
+  }
+  
+  .header-option-cart {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header-cart-count {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  
+  /* .btn-warning {
+    background-color: rgb(221, 146, 8);;
+  } */
