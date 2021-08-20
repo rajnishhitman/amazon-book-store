@@ -37,7 +37,7 @@ const mongoClient = require("mongodb").MongoClient;
 
 //db connectivity
 //db connection url
-const dburl = "mongodb+srv://cognizantTraining:cognizantTraining@cluster0.jkagd.mongodb.net/cognizantTraining?retryWrites=true&w=majority";
+const dburl = process.env.DATABASE_URL;
 
 
 //database obj
@@ -137,5 +137,5 @@ app.post('/razorpay/:totalPrice', async (req, res) => {
 
 
 //assign port 
-const port = 8080;
+const port = process.env.PORT||8080;
 app.listen(port, () => console.log(`server listening on port ${port}..`))
